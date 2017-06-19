@@ -1,0 +1,30 @@
+﻿.boxed {
+  border: 1px solid darkblue ;
+  background-color: blue;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+}
+table tr:nth-child(even) {
+    background-color:darkgrey;
+}
+table tr:nth-child(odd) {
+    background-color: Highlight;
+}
+table th {
+    color: white;
+    background-color:coral;
+}
+td#t01 {
+    font-size: x-large;
+    font: bold;
+}

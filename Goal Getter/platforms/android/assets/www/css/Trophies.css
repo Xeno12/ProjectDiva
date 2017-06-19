@@ -1,0 +1,41 @@
+﻿
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    text-align:center;
+}
+table {
+    border-spacing: 10px;
+}
+table tr:nth-child(even) {
+     background-color:darkgrey;
+}
+table tr:nth-child(odd) {
+    background-color: Highlight;
+}
+table th {
+    
+   
+}
+td#t01 {
+ 
+
+    font: bold;
+}
+
+.boxed {
+  border: 1px solid darkblue ;
+  background-color: blue;
+}
+.button icon {
+    color : green;
+    
+}
+ .bar-footer{
+    
+
+ }

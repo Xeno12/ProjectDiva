@@ -1,0 +1,46 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "io.cordova.myapp02a060"
+        }
+    }
+}

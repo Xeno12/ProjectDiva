@@ -1,0 +1,40 @@
+﻿
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 3.90px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+}
+table tr:nth-child(even) {
+   background-color:darkgrey;
+}
+table tr:nth-child(odd) {
+    background-color: Highlight;
+}
+table th {
+    
+   
+}
+td#t01 {
+    color: red;
+   
+    font: bold;
+}
+.boxed {
+  border: 1px solid darkblue ;
+  background-color: blue;
+}
+.button icon {
+    color : green;
+    
+}
+ .bar-footer{
+       font-size: x-large;
+
+ }

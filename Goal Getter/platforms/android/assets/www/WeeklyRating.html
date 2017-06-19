@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/WeeklyRating.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+    <!--For users deploying their apps to Windows 8.1 or Android Gingerbread, platformOverrided.js
+    will inject platform-specific code from the /merges folder -->
+    <script src="js/platformOverrides.js"></script>
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+</head>
+<body ng-app="starter">
+
+    <ion-pane>
+        <div class="bar bar-header bar-positive">
+            <a href="index.html"><button class="button icon ion-home"></button></a>
+            <button class="button icon ion-android-arrow-back"></button>
+            <button class="button icon ion-android-arrow-forward"></button>
+            <h1 class="title">Goal Getter</h1>
+        </div>
+
+        <div class="bar bar-subheader bar-positive">
+            <h2 class="title">Developing tomorrow's leaders today</h2>
+        </div>
+
+        <ion-content class="has-header has-subheader">
+
+            <div class="row">
+                <div class="col"></div>
+                <div class="col" align="center" tr style="background-color:blue"><h3>Weekly Rating</h3></div>
+                <div class="col"></div>
+            </div>
+            <br />
+
+            <div class="boxed" align="center">
+                <h4>Week <font color="#ff0000">15</font>: Weekly Rating <br /> (Min 0 and Max 7)</h4>
+            </div>
+
+            <table style="width:100%">
+                <tr>
+                    <th>Goals</th>
+                    <th>My rating</th>
+                    <th>Parents rating</th>
+                    <th>Average</th>
+                    <th>Points</th>
+                </tr>
+                <tr>
+                    <td>Healthy eating (14)</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Active exercises (14)</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Good sleep (13)</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>7.4</td>
+                </tr>
+                <tr>
+                    <td>Personal hygiene (13)</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>9.3</td>
+                </tr>
+                <tr>
+                    <td>Neatness (12)</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>6.9</td>
+                </tr>
+                <tr>
+                    <td>Family responsibilities (13)</td>
+                    <td>7</td>
+                    <td>6</td>
+                    <td>6.5</td>
+                    <td>6.5</td>
+                </tr>
+                <tr>
+                    <td id="t01" colspan="4">Subtotal (Max 79 points)</td>
+                    <td id="t01">46.1</td>
+                </tr>
+            </table>
+
+            <div class="col" align="center">
+                <button class="button button-positive icon-left ion-ios-time-outline">
+                    History
+                </button>
+            </div>
+
+        </ion-content>
+    </ion-pane>
+</body>
+</html>

@@ -1,0 +1,75 @@
+﻿
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/Login.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+    <!--For users deploying their apps to Windows 8.1 or Android Gingerbread, platformOverrided.js
+    will inject platform-specific code from the /merges folder -->
+    <script src="js/platformOverrides.js"></script>
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="Scripts/script.js"></script>
+</head>
+<body ng-app="starter">
+
+    <ion-pane>
+
+        <div class="container">
+            <h1>GoalG</h1>
+        </div>
+        <form name="form1" onsubmit="return checkForm(this);" method="POST" action="https://localhost/API/index.php">
+            <label class="item item-input">
+                <span class="input-label">Username</span>
+                <input type="text" name="username" placeholder="Enter Username">
+
+            </label>
+
+
+            <label class="item item-input">
+                <span class="input-label">Password</span>
+                <input type="password" name="pwd1" placeholder="Enter Password">
+            </label>
+
+
+
+            <div class="list">
+
+                <label class="item item-input item-select" >
+                    <div class="input-label">
+                        Category
+                    </div>
+
+
+                    <select name="FIELDNAME" class="Boom">
+                        <option value="-1" disabled="disabled" selected="selected" hidden>Select an option</option>
+                        <option value="1">Parent</option>
+                        <option value="2">Child</option>
+                    </select>
+                </label>
+
+                <button class="button button-medium button-calm" style="width:100%">
+                    Submit
+                </button>
+                <p>Do not have an account? <a class="cancelbtn" href="https://localhost/Website.html">Registration form</a>
+        </form>
+
+    </ion-pane>
+
+</body>
+
+
+</html>
